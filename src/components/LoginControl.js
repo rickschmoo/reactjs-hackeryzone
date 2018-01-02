@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
 
-import logo from './logo.svg';
-import './App.css';
+class LoginControl extends Component {
 
-class LoginControl extends React.Component {
-  
   constructor(props) {
     super(props);
     this.handleLoginClick = this.handleLoginClick.bind(this);

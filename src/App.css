@@ -22,6 +22,21 @@
   font-size: large;
 }
 
+button {
+  height: 40px;
+  width: 200px;
+}
+
+.warning {
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+
+  font-size: 14pt;
+  color: black;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
