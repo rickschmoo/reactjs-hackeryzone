@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 // import ReactDOM from 'react-dom';
 
+import LoginControl from './LoginControl.js';
+
 import logo from './logo.svg';
 import './App.css';
+
 
 class Clock extends Component {
   constructor(props) {
@@ -74,6 +77,7 @@ class App extends Component {
           <Clock/>
           <Clock/>
           <Clock/>
+          <LoginControl/>
         </div>
       </div>
     );
